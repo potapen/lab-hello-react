@@ -12,22 +12,22 @@ import icon4 from './images/icon4.png';
 function App() {
   const inputsArray = [
     {
-      img: {icon1},
+      img: icon1,
       title: 'declarative',
       article: 'react makes it painless to create interactive UIs'
     },
     {
-      img: './images/icon2.png',
+      img: icon2,
       title: 'Components',
       article: 'Build encapsulated'
     },
     {
-      img: './images/icon3.png',
+      img: icon3,
       title: 'Single-Way',
       article: 'a set of immutable'
     },
     {
-      img: './images/icon4.png',
+      img: icon4,
       title: 'JSX',
       article: 'statically typed'
     }
