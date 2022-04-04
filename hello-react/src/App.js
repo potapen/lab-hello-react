@@ -12,7 +12,7 @@ import icon4 from './images/icon4.png';
 function App() {
   const inputsArray = [
     {
-      img: icon1,
+      img: icon1, //ne pas mettre {icon1} car on est en dehors de JSX. Dans JSX on met des {} pour indiquer du JS
       title: 'declarative',
       article: 'react makes it painless to create interactive UIs'
     },
